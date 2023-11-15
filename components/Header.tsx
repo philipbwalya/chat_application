@@ -19,7 +19,7 @@ async function Header() {
 
         <div className='flex flex-1 items-center justify-end space-x-4'>
           {/* LanguageSelect */}
-
+{/*           if logged in should have a link to the chat and the provision to make a new chat */}
           {session ? (
             <>
             <Link href={'/chat'} prefetch={false}>
