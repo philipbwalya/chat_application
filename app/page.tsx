@@ -2,7 +2,7 @@ import Link from "next/link";
 import DemoGif from "@/images/landingPage/demo.gif";
 import Image from "next/image";
 
-export default function HomePage() {
+export default async function HomePage() {
   return (
     <div className="">
       <div className="relative isolate pt-14 dark:bg-gray-900">
